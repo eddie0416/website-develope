@@ -1,0 +1,163 @@
+body {
+    font-family: 'Microsoft JhengHei', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    background-color: #454655;
+    color: #ffffff;
+  }
+  
+  center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family: courier new;
+  }
+  
+  input[type="button"],input[type="submit"], input[type="reset"] {
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: #343541;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    font-family: courier new;
+    
+  }
+  
+  input[type="button"]:hover {
+    background-color: #212122;
+    color: #ffffff;
+  }
+  input[type="submit"]:hover {
+    background-color: #212122;
+    color: #ffffff;
+  }
+  input[type="reset"]:hover {
+    background-color: #212122;
+    color: #ffffff;
+  }
+  
+  input[type="button"]:active {
+    background-color: #3e8e41;
+  }
+  input[type="submit"]:active {
+    background-color: #3e8e41;
+  }
+  input[type="reset"]:active {
+    background-color: #3e8e41;
+  }
+  
+  input[type="button"]:focus {
+    outline: none;
+  }
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  input[type="reset"]:focus {
+    outline: none;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    border: 1px solid #343541;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #41404f;
+    color: #ccc;
+  }
+  
+  input.valid {
+    border: 2px solid green;
+  }
+  input.invalid {
+    border: 2px solid red;
+  }
+  /* 美化Radio */
+  input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+    background-color: #41404f;
+    border: 1px solid #343541;
+  }
+  
+  select {
+    background-color: #41404f;
+    color: #ccc;
+    border: 1px solid #343541;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+    background-color: #41404f;
+    border: 1px solid #343541;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #3e8e41;
+  }
+/* 設定整個表格的外觀 */
+table {
+    border-collapse: collapse; /* 合併邊框線 */
+    width: 100%; /* 設定寬度為 100% */
+  }
+  
+  /* 設定表格的邊框線 */
+  table, th, td {
+    border: 1px solid #212122; /* 設定邊框線為 1px 寬的 #212122 */
+  }
+  
+  /* 設定表頭的背景顏色、文字顏色、對齊方式 */
+  th {
+    background-color: #212122; /* 設定背景顏色為 #212122 */
+    color: #fff; /* 設定文字顏色為 #fff */
+    text-align: center; /* 設定文字靠左對齊 */
+  }
+  
+  /* 設定偶數行的背景顏色 */
+  tr:nth-child(even) {
+    background-color: #48579f; /* 設定背景顏色為 #f2f2f2 */
+  }
+  
+  /* 設定鼠標移到表格上方時的背景顏色 */
+  tr:hover {
+    background-color: #ddd; /* 設定背景顏色為 #ddd */
+    color: #212122;
+  }
+  
+  /* 設定表格內容的對齊方式 */
+  td {
+    text-align: center; /* 設定文字靠左對齊 */
+    padding: 8px; /* 設定內距為 8px */
+  }
+  
